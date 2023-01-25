@@ -272,17 +272,17 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-column-gap: 1.5rem;
-  grid-row-gap: 3rem;
+  grid-row-gap: 2rem;
   background-color: transparent;
 }
 .project-item {
   border-radius: 10px;
   overflow: hidden;
 }
-.projects-page .projects-container .project-item:hover .project-image img {
+.projects-page .projects-container .project-item:hover .project-picture img {
   transform: scale(1.05);
 }
-.projects-page .projects-container .project-item .project-image {
+.projects-page .projects-container .project-item .project-picture {
   overflow: hidden;
   width: 100%;
   margin-bottom: 0.5rem;
