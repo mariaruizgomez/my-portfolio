@@ -358,3 +358,28 @@ color: var(--body-bg-color);
 .certificate-pic:hover img {
   transform: scale(1.2);
 }
+
+
+.section-page {
+  min-height: 100vh;
+}
+.contact-container {
+  background-color: #E8DFE0;
+  margin: 5rem 7rem;
+  padding: 2.5rem;
+}
+.text-section {
+  align-self: center;
+  font-size: 2rem;
+  color: white;
+}
+.connect-title {
+  font-weight: 700;
+  color: #85586F;
+  font-size: 4rem;
+}
+.connect-picture img{
+   width: 30rem;
+   margin: 1rem 0;
+}
+
