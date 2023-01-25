@@ -134,7 +134,8 @@ body {
 }
 
 .profile img {
-  max-width: 10rem;
+  max-width: 100%;
+  height: auto;
   background-color: var(--main-bg);
 }
 .picture {
