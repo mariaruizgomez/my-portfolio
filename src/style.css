@@ -141,11 +141,12 @@ body {
   display: inline-block;
   align-items: flex-end;
   height: fit-content;
-   width: 20rem;
+  width: 20rem;
   margin: 2rem 2rem 2rem 3rem;
 }
+
 .about {
-  min-height: 65vh;
+  min-height: 45vh;
   background-color: var(--second-color);
   padding: 3rem 5rem;
 }
@@ -154,7 +155,7 @@ body {
   font-size: 4.5rem;
   font-weight: 600;
   text-transform: capitalize;
-  margin: 2rem 0;
+  margin: 2rem 0 8rem 0;
 }
 .about-me {
   color: var(--body-bg-color);
@@ -257,7 +258,8 @@ body {
   font-size: 4.5rem;
   font-weight: 600;
   text-transform: capitalize;
-  margin: 2rem 0 8rem;
+  margin: 2rem 0 20rem 0;
+
 }
 
 
