@@ -152,15 +152,15 @@ body {
   padding: 3rem 5rem;
 }
 .text-container-bg-light {
-  color: var(--first-color)
-  font-size: 2.5rem;
+  color: var(--first-color);
+  font-size: 4.5rem;
   font-weight: 600;
   text-transform: capitalize;
   margin: 2rem 0;
 }
 .about-me {
   color: var(--body-bg-color);
-  font-size: 1.5rem;
+  font-size: 4.5rem;
   width: 45%;
   margin: 0 auto;
   text-align: center;
@@ -201,9 +201,65 @@ body {
 }
 
 
-.skills-page {
+.skills {
   background-color: var(--body-bg-color);
   min-height: 80vh;
   padding: 7rem 6rem;
   color: var(--second-color);
+  
+}
+.skill-item {
+  border: none;
+  border-radius: 10px;
+}
+.skill-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--second-color);
+  border-radius: 10px;
+}
+.vscode {
+  width: 4rem;
+}
+.skill-icon i {
+  margin: 20px;
+  font-size: 4rem;
+ 
+}
+.fa-node-js {
+  color: #FBD485;
+}
+.fa-bootstrap {
+  color: #7431F9;
+}
+.fa-html5 {
+  color: #DE4B25;
+}
+.fa-css3-alt {
+  color: #254CE4;
+}
+.fa-react {
+  color: #5ED3F3;
+}
+.fa-codepen {
+  color: white;
+}
+.skill-icon p {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--first-color);
+  font-weight: 600;
+}
+
+.text-container-bg-dark{
+  color: var(--second-color);
+  font-size: 4.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 2rem 0 8rem;
+  
 }
