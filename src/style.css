@@ -52,7 +52,7 @@ body {
 
 
 .navbar {
-  background-color: #302718;
+  background-color: var(--body-bg-color);
   
   padding: 1rem;
   width: 100%;
@@ -79,7 +79,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #E8DFE0;
+  color: var(--second-color);
   padding-bottom: 0.3rem;
   
 }
@@ -144,10 +144,8 @@ body {
    width: 20rem;
   margin: 2rem 2rem 2rem 3rem;
 }
-
-
 .about {
-  min-height: 80vh;
+  min-height: 65vh;
   background-color: var(--second-color);
   padding: 3rem 5rem;
 }
@@ -254,12 +252,106 @@ body {
   color: var(--first-color);
   font-weight: 600;
 }
-
 .text-container-bg-dark{
   color: var(--second-color);
   font-size: 4.5rem;
   font-weight: 600;
   text-transform: capitalize;
   margin: 2rem 0 8rem;
-  
+}
+
+
+
+.projects-page {
+  background-color: var(--second-color);
+  min-height: 100vh;
+}
+.projects-container {
+  margin: 2.5rem 5rem 0;
+  padding-bottom: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 3rem;
+  background-color: transparent;
+}
+.project-item {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.projects-page .projects-container .project-item:hover .project-image img {
+  transform: scale(1.05);
+}
+.projects-page .projects-container .project-item .project-image {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.project-picture img {
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.project-name {
+  color: var(--first-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  align-self: center;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+.project-description {
+color: var(--body-bg-color);
+}
+.project-description {
+  margin: 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.visit-site {
+  background-color: var(--first-color);
+  color: var(--second-color);
+  width: 10rem;
+  height: 2.9rem;
+  padding: 10px 5px;
+  margin: 0.5rem 0.5rem 1.5rem;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: transform 0.3s ease-in;
+  align-self: center;
+  text-decoration: none;
+}
+.visit-site:hover {
+  background-color: var(--body-bg-color);
+  color: var(--third-color);
+}
+
+
+.certificates-page {
+  background-color: var(--body-bg-color);
+  min-height: 80vh;
+  padding: 3rem 5rem 5rem;
+}
+.certificate-item {
+  border: none;
+  border-radius: 10px;
+}
+.certificate-pic {
+  position: relative;
+  margin-top: 40px;
+}
+.certificate-pic img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: all 150ms easy-in-out;
+}
+.certificate-pic:hover img {
+  transform: scale(1.2);
 }
