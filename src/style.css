@@ -10,30 +10,29 @@
 }
 
 :root {
---first-color: #b4d9db;
+--first-color: #85586F;
 --second-color: #E8DFE0;
 --third-color: #6e5243;
 --fourth-color: #d0b399;
 --hover: #e2dcc8;
 --body-bg-color: #302718;
---card-bg-color: #E8DFE0;
+
 
 --bg-transparent-color: rgba(0,0,0,0.1);
 --transparent-color-01: rgba(0,0,0,0.1);
 --transparent-color-02: rgba(106,89,209,0.1);
 
 --box-shadow: 0px 0px 20px rgba(0 0 0 / 10%);
---small-font-size: 0.9em;
---normal-font-size: 1em;
+
 --scroll-bar-color: 
 
   --main-bg: #f2f2f2;
   --primary-bg: #e2dcc80c;
   --primary-bg-dark: #2c2c2a;
-  --main-text: #85586F;
+  
   --highlight-color: #ffcbc1;
  
-  --border: 0.12rem solid #ffcbc1;
+  --border: 0.14rem solid #ffcbc1;
   --border-gray: 0.12rem solid #2c2c2a;
   
 }
@@ -45,12 +44,12 @@ html {
   font-size: 100%;
 }
 
-
 body {
-  background-color: #302718;
-  color: var(--main-text);
-  
+  background-color: var(--body-bg-color);
+  color: var(--first-color);
+
 }
+
 
 .navbar {
   background-color: #302718;
@@ -71,7 +70,7 @@ body {
 }
 
 .nav-link {
-  color:  #85586F;
+  color:  var(--first-color);
   font-weight: 900;
   font-size: 1.4rem;
   text-transform: capitalize;
@@ -83,7 +82,66 @@ body {
   color: #E8DFE0;
   padding-bottom: 0.3rem;
   
-  
+}
+
+#menu {
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--main-text);
+}
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 
 
+//==home-page==//
+.home-page {
+  min-height: 60vh;
+}
+.home-container {
+  background-color: var(--second-color);
+  height: fit-content;
+  margin: 6rem 6rem 6rem;
+}
+.content {
+  color: var(--body-bg-color);
+  align-content: center;
+  margin: auto 1rem;
+  padding: 2rem;
+  max-width: 550px;
+}
+.content h1 {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.content h2 {
+  line-height: 4rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-size: 4rem;
+  font-weight: 900;
+  color: var(--first-color)
+}
+.content .details {
+  font-size: 1.2rem;
+  margin-bottom: 1.35rem;
+}
+.profile {
+  background: none;
+  margin: 1rem;
+}
+
+.profile img {
+  max-width: 10rem;
+  background-color: var(--main-bg);
+}
+.picture {
+  margin: 2.5rem 3rem;
+  display: inline-block;
+  align-items: flex-end;
+  height: fit-content;
+   width: 20rem;
+  margin: 2rem 2rem 2rem 3rem;
+}
