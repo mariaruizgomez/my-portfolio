@@ -11,30 +11,26 @@
 
 :root {
 --first-color: #b4d9db;
---second-color: #ffcbc1;
+--second-color: #E8DFE0;
 --third-color: #6e5243;
 --fourth-color: #d0b399;
 --hover: #e2dcc8;
---body-bg-color: #f2f2f2;
---card-bg-color: #2c2c2a;
---modal-bg-color:#e2dcc80c;
+--body-bg-color: #302718;
+--card-bg-color: #E8DFE0;
+
 --bg-transparent-color: rgba(0,0,0,0.1);
 --transparent-color-01: rgba(0,0,0,0.1);
 --transparent-color-02: rgba(106,89,209,0.1);
---line-color: 
---color-filter: invert(1);
+
 --box-shadow: 0px 0px 20px rgba(0 0 0 / 10%);
 --small-font-size: 0.9em;
 --normal-font-size: 1em;
 --scroll-bar-color: 
---scroll-thumb-color: 
---scroll-thumb-hover-color:
-
 
   --main-bg: #f2f2f2;
   --primary-bg: #e2dcc80c;
   --primary-bg-dark: #2c2c2a;
-  --main-text: #b4d9db;
+  --main-text: #85586F;
   --highlight-color: #ffcbc1;
  
   --border: 0.12rem solid #ffcbc1;
@@ -48,3 +44,46 @@ html {
   scroll-behavior: smooth;
   font-size: 100%;
 }
+
+
+body {
+  background-color: #302718;
+  color: var(--main-text);
+  
+}
+
+.navbar {
+  background-color: #302718;
+  
+  padding: 1rem;
+  width: 100%;
+  border-bottom: var(--border);
+  z-index: 1030;
+}
+
+.navbar-nav {
+  margin-right: 4rem;
+}
+
+.logo {
+  width: 3rem;
+  margin-left: 3rem;
+}
+
+.nav-link {
+  color:  #85586F;
+  font-weight: 900;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  margin: 0 0.4rem;
+  transition: all 0.2s linear;
+}
+
+.nav-link:hover {
+  color: #E8DFE0;
+  padding-bottom: 0.3rem;
+  
+  
+}
+
+
