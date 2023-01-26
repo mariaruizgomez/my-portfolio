@@ -269,7 +269,7 @@ body {
 
 .projects-section {
   background-color: var(--body-bg-color);
-  min-height: 55vh;
+  min-height: 100vh;
 }
 .text-container-bg-dark-projects {
   color: var(--first-color);
@@ -296,7 +296,7 @@ body {
 }
 .projects-page .projects-container .project-item .project-picture {
   overflow: hidden;
-  width: 50%;
+  width: 100%;
   margin-bottom: 0.5rem;
 }
 
