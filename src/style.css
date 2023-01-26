@@ -155,7 +155,7 @@ body {
   font-size: 4.5rem;
   font-weight: 600;
   text-transform: capitalize;
-  margin: 2rem 0 5rem 0;
+  margin: 2rem 0 4rem 0;
 }
 .about-me {
   color: var(--body-bg-color);
@@ -258,7 +258,7 @@ body {
   font-size: 4.5rem;
   font-weight: 600;
   text-transform: capitalize;
-  margin: 2rem 0 5rem 0;
+  margin: 2rem 0 1rem 0;
 
 }
 
@@ -266,7 +266,7 @@ body {
 
 .projects-section {
   background-color: var(--second-color);
-  min-height: 110vh;
+  min-height: 80vh;
 }
 .projects-container {
   margin: 2.5rem 5rem 0;
@@ -360,26 +360,42 @@ color: var(--body-bg-color);
 }
 
 
-.section-page {
-  min-height: 100vh;
+.contact-section{
+  min-height: 80vh;
 }
 .contact-container {
-  background-color: #E8DFE0;
+  background-color: var(--second-color);
   margin: 5rem 7rem;
   padding: 2.5rem;
 }
 .text-section {
   align-self: center;
   font-size: 2rem;
-  color: white;
+  color: var(--body-bg-color);
 }
 .connect-title {
   font-weight: 700;
-  color: #85586F;
+  color: var(--first-color);
   font-size: 4rem;
 }
 .connect-picture img{
    width: 30rem;
    margin: 1rem 0;
+}
+
+
+footer {
+  text-align: center;
+}
+.social-medias {
+  gap: 3rem;
+}
+.social-medias .social-icon {
+  font-size: 4rem;
+  color: var(--second-color);
+  margin-bottom: 1rem;
+}
+.social-medias .social-icon:hover {
+  color: var(--first-color);
 }
 
