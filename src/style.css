@@ -87,7 +87,7 @@ body {
 #menu {
   font-size: 1.8rem;
   cursor: pointer;
-  color: var(--main-text);
+  color: var(--highlight-color);
 }
 .navbar-toggler:focus {
   box-shadow: none;
@@ -334,7 +334,13 @@ color: var(--body-bg-color);
   color: var(--third-color);
 }
 
-
+.text-container-bg-dark-certificates{
+    color: var(--second-color);
+  font-size: 4.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 2rem 0 5rem 0;
+}
 .certificates-section {
   background-color: var(--body-bg-color);
   min-height: 80vh;
@@ -348,7 +354,7 @@ color: var(--body-bg-color);
   position: relative;
   margin-top: 40px;
 }
-.certificate-pic img {
+.certificate-picture img {
   border-radius: 10px;
   width: 100%;
   height: auto;
@@ -399,3 +405,60 @@ footer {
   color: var(--first-color);
 }
 
+
+@media (max-width: 1150px) {
+  .certificate-picture img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 95%;
+  }
+  .navbar-nav {
+    position: absolute;
+    right: -100%;
+    background: var(--body-bg-color);
+    width: 100vw;
+    height: auto;
+    margin-right: 0;
+    margin-top: 2.5rem;
+    opacity: 0.6;
+  }
+  .navbar.active {
+    top: 0;
+  }
+  .nav-link {
+    background-color: var(--body-bg-color);
+    display: block;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+  }
+  .nav-link:hover {
+    color: var(--second-color);
+    
+  }
+  .home-content {
+    text-align: center;
+    margin: auto;
+  }
+  .contact-container {
+    margin: 5rem 3rem;
+    padding: 2rem;
+  }
+  .certificate-pic img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 85%;
+  }
+  .certificate-picture img {
+    width: 100%;
+    height: 100%;
+  }
+ 
+}
