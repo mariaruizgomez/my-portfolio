@@ -61,7 +61,7 @@ body {
 }
 
 .navbar-nav {
-  margin-right: 4rem;
+  margin-right: 2rem;
 }
 
 .logo {
@@ -93,23 +93,24 @@ body {
   box-shadow: none;
 }
 
-.home-page {
-  min-height: 40vh;
+.home-section {
+  min-height: 78vh;
 }
 .home-container {
-  background-color: var(--second-color);
+  background-color: var(--body-bg-color);
   height: fit-content;
   margin: 6rem 6rem 6rem;
 }
 .content {
-  color: var(--body-bg-color);
+  color: var(--third-color);
   align-content: center;
   margin: auto 1rem;
   padding: 2rem;
   max-width: 550px;
+  
 }
 .content h1 {
-  font-size: 1.6rem;
+  font-size: 2.9rem;
   text-transform: capitalize;
   margin-bottom: 1rem;
   font-weight: 500;
@@ -123,7 +124,7 @@ body {
   color: var(--first-color)
 }
 .content .details {
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   margin-bottom: 1.35rem;
 }
 .profile {
@@ -146,21 +147,15 @@ body {
 }
 
 .about-section {
-  min-height: 45vh;
-  background-color: var(--second-color);
+  min-height: 79vh;
+  background-color: var(--main-bg);
   padding: 3rem 5rem;
 }
-.text-container-bg-light {
-  color: var(--first-color);
-  font-size: 4.5rem;
-  font-weight: 600;
-  text-transform: capitalize;
-  margin: 2rem 0 4rem 0;
-}
+
 .about-me {
-  color: var(--body-bg-color);
-  font-size: 4.5rem;
-  width: 45%;
+  color: var(--third-color);
+  font-size: 1.5rem;
+  width: 65%;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 10px;
@@ -176,34 +171,38 @@ body {
   margin: 1rem 0;
 }
 .about-content {
-  color: var(--second-color);
+  color: var(--third-color);
   font-size: 1.5rem;
   text-align: justify;
 }
-.heading {
-  color: var(--third-color);
+.quote {
+  color: #E2DCC8;
   font-size: 1.6rem;
   font-weight: 600;
 }
 .contact-me {
-  background-color: var(--second-color);
+  background-color: var(--third-color);
   color: var(--third-color);
-  padding: 0.3rem 0.3rem;
-  margin: 1rem 0;
+  padding: 0.1rem 0.1rem;
+  margin: 0.5rem 0;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
 }
 .contact-me:hover {
   transform: scale(1.05);
-  background-color: #85586F;
+  background-color: var(--first-color);
+}
+#my-work {
+  text-decoration: none;
+  color: var(--highlight-color);
 }
 
 
 .skills-section {
   background-color: var(--body-bg-color);
-  min-height: 80vh;
-  padding: 7rem 6rem;
+  min-height: 84vh;
+  padding: 2rem 6rem;
   color: var(--second-color);
   
 }
@@ -253,20 +252,31 @@ body {
   color: var(--first-color);
   font-weight: 600;
 }
-.text-container-bg-dark{
-  color: var(--second-color);
-  font-size: 4.5rem;
+.text-container-bg-dark {
+  color: var(--first-color);
+  font-size: 3.5rem;
   font-weight: 600;
   text-transform: capitalize;
-  margin: 2rem 0 1rem 0;
-
+  margin: 2rem 0 2rem 0;
+}
+.text-container-bg-light {
+  color: var(--first-color);
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 2rem 0;
 }
 
-
-
 .projects-section {
-  background-color: var(--second-color);
-  min-height: 80vh;
+  background-color: var(--body-bg-color);
+  min-height: 55vh;
+}
+.text-container-bg-dark-projects {
+  color: var(--first-color);
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0.1rem 0;
 }
 .projects-container {
   margin: 2.5rem 5rem 0;
@@ -286,7 +296,7 @@ body {
 }
 .projects-page .projects-container .project-item .project-picture {
   overflow: hidden;
-  width: 100%;
+  width: 50%;
   margin-bottom: 0.5rem;
 }
 
@@ -308,7 +318,7 @@ body {
   margin-top: 20px;
 }
 .project-description {
-color: var(--body-bg-color);
+color: var(--fourth-color);
 }
 .project-description {
   margin: 0.5rem;
@@ -334,16 +344,9 @@ color: var(--body-bg-color);
   color: var(--third-color);
 }
 
-.text-container-bg-dark-certificates{
-    color: var(--second-color);
-  font-size: 4.5rem;
-  font-weight: 600;
-  text-transform: capitalize;
-  margin: 2rem 0 5rem 0;
-}
 .certificates-section {
   background-color: var(--body-bg-color);
-  min-height: 80vh;
+  min-height: 77vh;
   padding: 3rem 5rem 5rem;
 }
 .certificate-item {
@@ -398,11 +401,12 @@ footer {
 }
 .social-medias .social-icon {
   font-size: 4rem;
-  color: var(--second-color);
+  color: var(--first-color);
   margin-bottom: 1rem;
 }
 .social-medias .social-icon:hover {
-  color: var(--first-color);
+  
+  color: var(--second-color);
 }
 
 
@@ -419,27 +423,28 @@ footer {
   .navbar-nav {
     position: absolute;
     right: -100%;
-    background: var(--body-bg-color);
+    background: var(--second-color);
     width: 100vw;
     height: auto;
     margin-right: 0;
     margin-top: 2.5rem;
-    opacity: 0.6;
+    opacity: 0.8;
   }
   .navbar.active {
     top: 0;
   }
   .nav-link {
-    background-color: var(--body-bg-color);
+    background-color: transparent;
     display: block;
     font-size: 1.3rem;
     margin-left: 2rem;
   }
   .nav-link:hover {
-    color: var(--second-color);
+    color: var(--primary-bg-dark);
     
   }
-  .home-content {
+
+  .content {
     text-align: center;
     margin: auto;
   }
