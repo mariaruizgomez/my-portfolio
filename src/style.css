@@ -325,16 +325,13 @@ section {
 .certificates-section {
   background-color: #333;
   min-height: fit-content;
-  padding: 3rem 2rem 20rem;
+  padding: 2rem 2rem 2rem;
 }
 .certificate-item {
   border: none;
   border-radius: 10px;
 }
-.certificate-pic {
-  position: relative;
-  margin-top: 40px;
-}
+
 .certificate-picture img {
   border-radius: 10px;
   width: 100%;
@@ -342,15 +339,39 @@ section {
   display: block;
   transition: all 150ms easy-in-out;
 }
-.certificate-pic:hover img {
+.certificate-picture:hover img {
   transform: scale(1.2);
 }
 
+/*Contact section*/
 
 
+.contact-section{
+  background-color: #333;
+  min-height: fit-content;
+  
+}
+.contact-container {
+  background-color: var(--first-color);
+  margin: 1rem 1rem;
+  padding: 2.5rem;
+}
+.text-section {
+  align-self: center;
+  font-size: 2rem;
+  color: #333;
+}
+.connect-title {
+  font-weight: 700;
+  color: var(--second-color);
+  font-size: 4rem;
+}
+.connect-picture img{
+   max-width: 30rem;
+   margin: 2rem 0;
+}
 
-
-
+/*Footer section*/
 
 
 
