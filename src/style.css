@@ -317,9 +317,34 @@ section {
   color: var(--first-color);
 }
 
+/*Certificates section*/
 
 
 
+
+.certificates-section {
+  background-color: #333;
+  min-height: fit-content;
+  padding: 3rem 2rem 20rem;
+}
+.certificate-item {
+  border: none;
+  border-radius: 10px;
+}
+.certificate-pic {
+  position: relative;
+  margin-top: 40px;
+}
+.certificate-picture img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: all 150ms easy-in-out;
+}
+.certificate-pic:hover img {
+  transform: scale(1.2);
+}
 
 
 
