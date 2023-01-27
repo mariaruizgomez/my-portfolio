@@ -23,7 +23,7 @@
   --primary-bg: #e2dcc80c;
   --primary-bg-dark: #2C2C2A;
   --highlight-color: #FFCBC1;
-  --border: 0.14rem solid #FFCBC1;
+  --border: 0.14rem solid #E2DCC8;
   --border-gray: 1rem solid #85586F;
 }
 
@@ -256,8 +256,8 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width:35rem;
-    min-width:18rem;
+    max-width:25rem;
+    min-width:25rem;
     margin: 10px;
     text-align: center;
 }
@@ -275,7 +275,7 @@ section {
   margin-bottom: 0.5rem;
 }
 .project-picture img {
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px;
   margin-bottom: 1rem;
   object-fit: cover;
   width: 100%;
