@@ -1,11 +1,11 @@
-body {
+* {
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background: #333;
-  color: #fff;
-  font-size: 1.1em;
-  line-height: 1.5;
-  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
 }
 :root {
 --first-color: #85586F;
@@ -26,6 +26,13 @@ body {
   --border: 0.14rem solid #FFCBC1;
   --border-gray: 1rem solid #85586F;
 }
+
+body {
+  background-color: #333;
+  color: var(--second-color);
+}
+
+/*navbar*/
 .navbar {
   background-color: #333;
   padding: 1rem;
@@ -61,7 +68,70 @@ body {
   box-shadow: none;
 }
 
+/*Home section*/
 
+section {
+  padding: 160px 15% 120px;
+}
+
+.home-section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/604/original/pexels-christina-morillo-1181279.jpg?1674780369');
+  background-size: cover;
+  background-position: center;
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.content h1 {
+  font-size: 2.9rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.content h2 {
+  line-height: 4rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-size: 4rem;
+  font-weight: 900;
+  color: var(--first-color)
+}
+.content .details {
+  font-size: 2.2rem;
+  margin-bottom: 1.35rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
 @media (max-width: 991px) {
   html {
     font-size: 95%;
