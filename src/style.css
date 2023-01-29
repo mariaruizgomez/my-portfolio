@@ -8,23 +8,23 @@
   scroll-behavior: smooth;
 }
 :root {
---first-color: #85586F;
---second-color: #E8DFE0;
---third-color: #F0E0C9;
---fourth-color: #D0B399;
---hover: #E2DCC8;
---body-bg-color: #302718;
---bg-transparent-color: rgba(0,0,0,0.1);
---transparent-color-01: rgba(0,0,0,0.1);
---transparent-color-02: rgba(106,89,209,0.1);
---box-shadow: 0px 0px 20px rgba(0 0 0 / 10%);
---scroll-bar-color:
-  --main-bg: #F2F2F2;
+  --first-color: #85586f;
+  --second-color: #e8dfe0;
+  --third-color: #f0e0c9;
+  --fourth-color: #d0b399;
+  --hover: #e2dcc8;
+  --body-bg-color: #302718;
+  --bg-transparent-color: rgba(0, 0, 0, 0.1);
+  --transparent-color-01: rgba(0, 0, 0, 0.1);
+  --transparent-color-02: rgba(106, 89, 209, 0.1);
+  --box-shadow: 0px 0px 20px rgba(0 0 0 / 10%);
+
+  --main-bg: #f2f2f2;
   --primary-bg: #e2dcc80c;
-  --primary-bg-dark: #2C2C2A;
-  --highlight-color: #FFCBC1;
-  --border: 0.14rem solid #E2DCC8;
-  --border-gray: 1rem solid #85586F;
+  --primary-bg-dark: #2c2c2a;
+  --highlight-color: #ffcbc1;
+  --border: 0.14rem solid #e2dcc8;
+  --border-gray: 1rem solid #85586f;
 }
 
 body {
@@ -78,7 +78,7 @@ section {
   position: relative;
   height: 100vh;
   width: 100%;
-  background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/604/original/pexels-christina-morillo-1181279.jpg?1674780369');
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/604/original/pexels-christina-morillo-1181279.jpg?1674780369");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -98,7 +98,7 @@ section {
   text-transform: capitalize;
   font-size: 4rem;
   font-weight: 900;
-  color: var(--first-color)
+  color: var(--first-color);
 }
 .content p {
   color: var(--first-color);
@@ -111,12 +111,11 @@ section {
 }
 
 .contact-me {
-  border: #85586F;
+  border: #85586f;
 }
 .contact-me:hover {
-  background-color: #85586F;
+  background-color: #85586f;
 }
-
 
 /*About section*/
 
@@ -127,11 +126,9 @@ section {
   gap: 1.5rem;
 }
 
-
 .about-img img {
   height: auto;
-  max-width: 100%;
-  height: auto;
+  max-width: 80%;
   border-radius: 30px;
 }
 
@@ -149,7 +146,6 @@ section {
   line-height: 1;
 }
 
-
 .about-text p,
 .about-content p {
   color: var(--second-color);
@@ -165,7 +161,6 @@ section {
   min-height: fit-content;
   padding: 2rem 6rem;
   color: var(--second-color);
- 
 }
 
 .text-container {
@@ -174,7 +169,6 @@ section {
   font-weight: 600;
   text-transform: capitalize;
   margin: 6rem 0;
-  
 }
 
 .skill-item {
@@ -197,19 +191,19 @@ section {
   font-size: 4rem;
 }
 .fa-node-js {
-  color: #FBD485;
+  color: #fbd485;
 }
 .fa-bootstrap {
-  color: #7431F9;
+  color: #7431f9;
 }
 .fa-html5 {
-  color: #DE4B25;
+  color: #de4b25;
 }
 .fa-css3-alt {
-  color: #254CE4;
+  color: #254ce4;
 }
 .fa-react {
-  color: #5ED3F3;
+  color: #5ed3f3;
 }
 .fa-codepen {
   color: white;
@@ -222,7 +216,6 @@ section {
   color: var(--first-color);
   font-weight: 600;
 }
-
 
 /*Projects section*/
 
@@ -237,29 +230,28 @@ section {
   margin-bottom: 2rem;
   margin-top: -41px;
 }
-.projects-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-#img-projects{
-    max-width: 100%;
-    height: auto;
-    
+#img-projects {
+  max-width: 100%;
+  height: auto;
 }
 
-.box{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 50rem;
-    min-width:30rem;
-    margin: 5px;
-    text-align: center;
-    overflow: hidden;
-  
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 50rem;
+  min-width: 30rem;
+  margin: 5px;
+  text-align: center;
+  overflow: hidden;
+
   margin-bottom: 0.5rem;
 }
 .box p {
@@ -269,15 +261,11 @@ section {
   margin-top: 5px;
 }
 
-
-
-
-
 .visit-site {
   background-color: var(--first-color);
   color: var(--second-color);
- 
-  padding: .6rem 2rem;
+
+  padding: 0.6rem 2rem;
   margin: 3rem 0 2rem;
   text-transform: capitalize;
   font-size: 1.1rem;
@@ -293,13 +281,10 @@ section {
 
 /*Certificates section*/
 
-
-
-
 .certificates-section {
   background-color: #333;
   min-height: fit-content;
-  padding: 1rem 1rem ;
+  padding: 1rem 1rem;
 }
 .certificate-item {
   border: none;
@@ -319,22 +304,19 @@ section {
 
 /*Contact section*/
 
-
-.contact-section{
+.contact-section {
   background-color: #333;
-  
 }
 .contact-container {
-  background-color: var(--first-color);
+  background-color: #e2dcc80c;
   margin: 1rem 1rem;
-  padding: .2rem;
+  padding: 0.2rem;
 }
 .text-section {
   align-self: center;
   font-size: 2rem;
-  color: #333;
+  color: var(--first-color);
   padding: 1rem;
-  
 }
 .connect-title {
   font-weight: 700;
@@ -343,16 +325,16 @@ section {
   padding: 1.5rem;
 }
 
-.connect-picture img{
-   max-width: 30rem;
-   margin: 2.3rem 0;
-   padding: 3rem;
+.connect-picture img {
+  max-width: 30rem;
+  margin: 2.3rem 0;
+  padding: 3rem;
 }
 
 /*Footer section*/
 footer {
   text-align: center;
-
+  margin-top: -60px;
   margin-bottom: 4rem;
 }
 .social-medias {
@@ -361,20 +343,10 @@ footer {
 .social-medias .social-icon {
   font-size: 3rem;
   color: var(--first-color);
-  
 }
 .social-medias .social-icon:hover {
   color: var(--second-color);
 }
-
-
-
-
-
-
-
-
-
 
 /*media queries*/
 @media (max-width: 991px) {
@@ -391,9 +363,8 @@ footer {
     margin-top: 2.5rem;
     opacity: 0.8;
     text-align: left;
-    
   }
-  
+
   .navbar.active {
     top: 0;
   }
@@ -406,19 +377,59 @@ footer {
   .nav-link:hover {
     color: var(--primary-bg-dark);
   }
-.projects-container{
+  .projects-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   
-}
+  }
 
-#img-projects{
+  #img-projects {
     max-width: 100%;
     height: auto;
-    
+  }
+  .connect-picture img {
+    max-width: 38rem;
+    margin: 5rem auto;
+    height: auto;
+  }
+  .certificate-picture img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: all 150ms easy-in-out;
+  }
+  .certificate-picture:hover img {
+    transform: scale(1.2);
+  }
+  .about-img img {
+  height: auto;
+  max-width: 80%;
+  border-radius: 30px;
+}
 }
 
+@media (max-width: 1171px) {
+  .connect-picture img {
+    max-width: 20rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 }
