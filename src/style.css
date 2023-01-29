@@ -11,31 +11,22 @@
   --first-color: #85586f;
   --second-color: #e8dfe0;
   --third-color: #f0e0c9;
-  --fourth-color: #d0b399;
   --hover: #e2dcc8;
-  --body-bg-color: #302718;
+  --body-bg-color: #333;
   --bg-transparent-color: rgba(0, 0, 0, 0.1);
-  --transparent-color-01: rgba(0, 0, 0, 0.1);
-  --transparent-color-02: rgba(106, 89, 209, 0.1);
-  --box-shadow: 0px 0px 20px rgba(0 0 0 / 10%);
-
-  --main-bg: #f2f2f2;
-  --primary-bg: #e2dcc80c;
-  --primary-bg-dark: #2c2c2a;
-  --highlight-color: #ffcbc1;
-  --border: 0.14rem solid #e2dcc8;
+  --border: 0.14rem solid #e8dfe0;
   --border-gray: 1rem solid #85586f;
 }
 
 body {
-  background-color: #333;
+  background-color: var(--body-bg-color);
   color: var(--second-color);
 }
 
 /*navbar*/
 .navbar {
-  background-color: #333;
-  padding: .5rem;
+  background-color: var(--body-bg-color);
+  padding: 0.5rem;
   width: 100%;
   border-bottom: var(--border);
   z-index: 1030;
@@ -99,7 +90,6 @@ section {
   font-size: 4rem;
   font-weight: 900;
   color: var(--first-color);
-  
 }
 .content p {
   color: var(--first-color);
@@ -112,10 +102,10 @@ section {
 }
 
 .contact-me {
-  border: #85586f;
+  border: var(--first-color);
 }
 .contact-me:hover {
-  background-color: #85586f;
+  background-color: var(--first-color);
 }
 
 /*About section*/
@@ -158,10 +148,8 @@ section {
 /*Skills section*/
 
 .skills-section {
-  background-color: #333;
   min-height: fit-content;
   padding: 2rem 6rem;
-  color: var(--second-color);
 }
 
 .text-container {
@@ -207,7 +195,7 @@ section {
   color: #5ed3f3;
 }
 .fa-codepen {
-  color: white;
+  color: black;
 }
 .skill-icon p {
   margin-top: 15px;
@@ -220,9 +208,6 @@ section {
 
 /*Projects section*/
 
-.projects-section {
-  background-color: #333;
-}
 .text-container-projects {
   color: var(--first-color);
   font-size: 3.5rem;
@@ -255,8 +240,11 @@ section {
 
   margin-bottom: 0.5rem;
 }
-.box p {
+.box h1 {
   color: var(--first-color);
+}
+.box p {
+  color: var(--second-color);
   font-size: 1.2rem;
   font-weight: 400;
   margin-top: 5px;
@@ -283,7 +271,6 @@ section {
 /*Certificates section*/
 
 .certificates-section {
-  background-color: #333;
   min-height: fit-content;
   padding: 1rem 1rem;
 }
@@ -300,16 +287,13 @@ section {
   transition: all 150ms easy-in-out;
 }
 .certificate-picture:hover img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /*Contact section*/
 
-.contact-section {
-  background-color: #333;
-}
 .contact-container {
-  background-color: #e2dcc80c;
+  background-color: var(--bg-transparent-color);
   margin: 1rem 1rem;
   padding: 0.2rem;
 }
@@ -406,21 +390,21 @@ footer {
     transform: scale(1.2);
   }
   .about-img img {
-  height: auto;
-  max-width: 80%;
-  border-radius: 30px;
-}
-.home-section {
-  position: relative;
-  height: 70vh;
-  width: 100%;
-  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/604/original/pexels-christina-morillo-1181279.jpg?1674780369");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+    height: auto;
+    max-width: 80%;
+    border-radius: 30px;
+  }
+  .home-section {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/604/original/pexels-christina-morillo-1181279.jpg?1674780369");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
 }
 
 @media (max-width: 1171px) {
@@ -443,5 +427,5 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
+  }
 }
