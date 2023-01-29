@@ -35,7 +35,7 @@ body {
 /*navbar*/
 .navbar {
   background-color: #333;
-  padding: 1rem;
+  padding: .5rem;
   width: 100%;
   border-bottom: var(--border);
   z-index: 1030;
@@ -62,7 +62,7 @@ body {
 #menu {
   font-size: 1.8rem;
   cursor: pointer;
-  color: var(--highlight-color);
+  color: var(--second-color);
 }
 .navbar-toggler:focus {
   box-shadow: none;
@@ -71,7 +71,7 @@ body {
 /*Home section*/
 
 section {
-  padding: 160px 15% 120px;
+  padding: 150px 15% 120px;
 }
 
 .home-section {
@@ -89,16 +89,17 @@ section {
 .content h1 {
   font-size: 2.9rem;
   text-transform: capitalize;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-weight: 500;
 }
 .content h2 {
   line-height: 4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   text-transform: capitalize;
   font-size: 4rem;
   font-weight: 900;
   color: var(--first-color);
+  
 }
 .content p {
   color: var(--first-color);
@@ -107,7 +108,7 @@ section {
 }
 .content .details {
   font-size: 2.2rem;
-  margin-bottom: 1.35rem;
+  margin-bottom: 1.5rem;
 }
 
 .contact-me {
@@ -140,14 +141,14 @@ section {
   margin: 2rem 0;
 }
 
-.heading h2 {
-  font-size: 3.5rem;
-  color: var(--highlight-color);
+.about-text h2 {
+  font-size: 2rem;
+  color: var(--second-color);
   line-height: 1;
+  margin-bottom: 3rem;
 }
 
-.about-text p,
-.about-content p {
+.about-text p {
   color: var(--second-color);
   font-size: 1.2rem;
   line-height: 1.8;
@@ -408,6 +409,17 @@ footer {
   height: auto;
   max-width: 80%;
   border-radius: 30px;
+}
+.home-section {
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/604/original/pexels-christina-morillo-1181279.jpg?1674780369");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 }
 
