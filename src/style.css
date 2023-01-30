@@ -69,7 +69,7 @@ section {
   position: relative;
   height: 90vh;
   width: 100%;
-  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/604/original/pexels-christina-morillo-1181279.jpg?1674780369");
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/604/original/pexels-christina-morillo-1181279.jpg?1674780369");
   background-size: cover;
   background-position: center;
 
@@ -424,10 +424,10 @@ footer {
   }
   .home-section {
     position: relative;
-    height: 60vh;
+    height: 80vh;
     width: 100%;
-    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/604/original/pexels-christina-morillo-1181279.jpg?1674780369");
-    background-size: cover;
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/604/original/pexels-christina-morillo-1181279.jpg?1674780369");
+  background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
